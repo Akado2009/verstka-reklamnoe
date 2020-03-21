@@ -66,8 +66,52 @@ section {
 /* SECOND SECTION */
 /* THIRD SECTION */
 /* FOURTH SECTION */
+.gif-section {
+    position: relative;
+    height: 100vh;
+    background: url(https://i.gifer.com/G9An.gif) no-repeat center center;
+    background-size: cover;
+}
+
+.bottom-logo--white {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 10%;
+}
+
+.showreel-white--first {
+    position: absolute;
+    left: 300px;
+    width: 35%;
+}
+
+.showreel-svg--first {
+    width: 70%;
+    position: absolute;
+    left: 200px;
+}
+
+.showreel-white--second {
+    position: absolute;
+    right: 30px;
+    top: 200px;
+    width: 5%;
+}
+
+.showreel-svg--second {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 10%;
+}
+
+
 /* FIFTH SECTION */
 
+.padding-top {
+    padding-top: 5%;
+}
 .reasons-svg {
     width: 90%;
     z-index: -100;
@@ -85,8 +129,6 @@ section {
 }
 
 /* FIX ANIMATIONS */
-.reasons-item {
-}
 
 .reasons-item:hover {
     background-color: white;
