@@ -1,0 +1,117 @@
+html, body {
+    height: 100% !important;
+}
+
+section {
+    min-height: 100% !important;
+    overflow: hidden;
+    background-color: #FFD800;
+}
+
+.fullscreen {
+    height: 100vh;
+}
+
+.fullscreen-90 {
+    height: 90vh;
+}
+
+.fullscreen-10 {
+    height: 10vh;
+}
+
+/* FIRST SECTION */
+
+.logo-wrapper {
+    padding: 20px 70px;
+}
+
+.agency-image--top {
+    position: absolute;
+    right: 15%;
+    width: 25%;
+}
+
+.agency-image--bottom {
+    position: absolute;
+    right: 0;
+    width: 11%;
+}
+
+.main-logo--wrapper {
+    display: table;
+}
+
+.main-logo--wrapper {
+    display: table;
+    height: 100vh;
+}
+
+.main-logo {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.bottom-image {
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+}
+
+.main-agency--text {
+    width: 120%;
+    margin-bottom: 10%;
+}
+/* SECOND SECTION */
+/* THIRD SECTION */
+/* FOURTH SECTION */
+/* FIFTH SECTION */
+
+.reasons-svg {
+    width: 90%;
+    z-index: -100;
+}
+
+.reasons-smoke {
+    width: 65%;
+    z-index: 100;
+    margin-top: -16%;
+    margin-left: 1%;
+}
+
+.margin-top {
+    margin-top: 10%;
+}
+
+/* FIX ANIMATIONS */
+.reasons-item {
+}
+
+.reasons-item:hover {
+    background-color: white;
+}
+
+/* SIXTH SECTION */
+.large-logo {
+    width: 90%;
+    float: left;
+}
+
+.last-text {
+    width: 60%;
+}
+
+.flames {
+    background: url(assets/flames.png) no-repeat center bottom;
+    background-size: contain;
+}
+
+.center-block {
+    text-align: center;
+}
+
+.center-block span {
+    font-weight: bold;
+    margin: 0 20px;
+}
